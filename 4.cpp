@@ -10,15 +10,15 @@ using namespace std;
 int main(){
     int i,j,k;
     for(i=5;i>=1;i--){
-     for(k=1;k<5+i;k++){
+     for(k=5;k>i;k--){
         cout<<" ";
      }
         for(j=1;j<=i;j++){
             if(j%2==0){
-                cout<<"0 ";
+                cout<<"0";
             }
             else{
-                cout<<"1 ";
+                cout<<"1";
             }
         }
         cout<<endl;
